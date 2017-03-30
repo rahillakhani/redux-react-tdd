@@ -4,7 +4,8 @@
   "description": "learning how redux works with react and try to TDD it.",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "start": "node server/server.js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,20 @@
   "bugs": {
     "url": "https://github.com/rahillakhani/redux-react-tdd/issues"
   },
-  "homepage": "https://github.com/rahillakhani/redux-react-tdd#readme"
+  "homepage": "https://github.com/rahillakhani/redux-react-tdd#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "express": "^4.15.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "mocha": "^3.2.0",
+    "webpack": "^2.3.2"
+  }
 }
