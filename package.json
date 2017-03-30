@@ -1,0 +1,31 @@
+{
+  "name": "redux-react-tdd",
+  "version": "1.0.0",
+  "description": "learning how redux works with react and try to TDD it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahillakhani/redux-react-tdd.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "tdd",
+    "rahil",
+    "lakhani",
+    "-",
+    "followed",
+    "Sai",
+    "To",
+    "Yeung"
+  ],
+  "author": "rahillakhani originally (Sai To Yeung )",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahillakhani/redux-react-tdd/issues"
+  },
+  "homepage": "https://github.com/rahillakhani/redux-react-tdd#readme"
+}
