@@ -1,4 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import BasicClass from './Component/basicClass';
 
-ReactDOM.render(<div>with something</div>, document.getElementById('app'));
+ReactDOM.render(<BasicClass></BasicClass>, document.getElementById('app'));
