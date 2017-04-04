@@ -4,7 +4,7 @@ class BasicClass extends Component {
 	render() {
 		return (
 			<div>
-				will return something
+				something
 			</div>
 		)
 	}

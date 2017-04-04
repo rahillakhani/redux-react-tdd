@@ -14,5 +14,6 @@ describe('load first component', () => {
 	it('load frist app', () => {
 		var component = shallow(<BasicClass />);
 		expect(component).to.have.length(1);
+		expect(component.text()).to.be.equal('something');
 	});
 });

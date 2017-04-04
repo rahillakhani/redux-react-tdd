@@ -31,10 +31,16 @@
   },
   "homepage": "https://github.com/rahillakhani/redux-react-tdd#readme",
   "dependencies": {
+    "axios": "^0.16.0",
     "babel": "^6.23.0",
     "express": "^4.15.2",
+    "lodash": "^4.17.4",
+    "q": "^1.5.0",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "redux": "^2.0.0",
+    "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",
@@ -44,8 +50,12 @@
     "babel-preset-react": "^6.23.0",
     "chai": "^3.5.0",
     "enzyme": "^2.8.0",
+    "jest": "^19.0.2",
     "mocha": "^3.2.0",
+    "q": "^1.5.0",
     "react-addons-test-utils": "^15.4.2",
+    "react-test-utils": "0.0.1",
+    "redux-mock-store": "^1.2.2",
     "webpack": "^2.1.0-beta.22"
   }
 }
